@@ -1,3 +1,6 @@
+# Jars
+*.jar
+
 # Folders
 cache/
 versions/
@@ -58,4 +61,7 @@ plugins/AuthMe/*
 plugins/AdvancedBan/data
 plugins/AdvancedBan/logs
 plugins/AdvancedBan/Layouts.yml
+plugins/DatapackLoader/datapacks
+plugins/ResourcePackManager/*
+!plugins/ResourcePackManager/config
 
