@@ -7,6 +7,11 @@ REM urls.txt dosyasını satır satır oku
 for /f "tokens=1,2 delims= " %%A in (%file%) do (
     echo İndiriliyor: %%A
 
+    REM Hedef dizini kontrol et, yoksa oluştur
+    if not exist "%%~dpB" (
+        mkdir "%%~dpB"
+    )
+
     REM PowerShell kullanarak URL'yi indir ve belirlenen path'e kaydet
     powershell -Command "Invoke-WebRequest -Uri '%%A' -OutFile '%%B'"
 
