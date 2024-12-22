@@ -1,0 +1,3 @@
+2024-12-21 12:30:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "USERNAME CHARACTER VARYING(16)": "U&'t\\00fc\\011frk\\00e7\\015fym\\015foy\\015ftii\\0307' (17)"; SQL statement:
+INSERT INTO `luckperms_players` (uuid, username, primary_group) VALUES(?, ?, ?) [22001-214]

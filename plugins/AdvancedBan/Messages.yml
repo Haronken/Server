@@ -1,0 +1,324 @@
+General:
+  Prefix: []
+  NoPerms: "&cBunun için iznin yok!"
+  LayoutNotFound: "&c%NAME% adında bir ayar yok"
+  # This will be the replacement for the %DURATION% variable
+  TimeLayoutD: "%D%gün(s) %H%saat %M%dk %S%sn"
+  TimeLayoutH: "%H%saat(s) %M%dk %S%sn"
+  TimeLayoutM: "%M%dk %S%sn"
+  TimeLayoutS: "%S%saniye"
+  FailedFetch: "&c%NAME% UUID'si getirilemedi! Ayrıntılar için konsola bakın."
+
+
+Ban:
+  Usage: "&cKullanım &8\xbb &7&o/ban [Name] [Sebep/@Süre]"
+  Done: "&c&o%NAME% &7başarıyla yasaklandı!"
+  AlreadyDone: "&c&o%NAME% &7zaten yasaklandı!"
+  Exempt: "&c&o%NAME% &7adlı kullanıcıyı &7yasaklayamazsınız"
+  Layout:
+  - '&cSunucudan kalıcı olarak uzaklaştırıldınız.'
+  - "&cSebep &7%REASON%"
+  Notification:
+  - ""
+  - "    &4⬛⬛⬛⬛⬛     "
+  - "  &4⬛&4⬛        &4⬛   &3%NAME% &ekalıcı olarak uzaklaştırıldı!"
+  - "  &4⬛  &4⬛      &4⬛   &6Süre: &fKalıcı"
+  - "  &4⬛    &4⬛    &4⬛   &6Uzaklaştıran: &a%OPERATOR%"
+  - "  &4⬛      &4⬛  &4⬛   &6&oSebep: &f&o%REASON%"
+  - "  &4⬛        &4⬛&4⬛   &9/kurallar"
+  - "    &4⬛⬛⬛⬛⬛     "
+  - ""
+
+Ipban:
+  Usage: "&cKullanım &8\xbb &7&o/banip [Name/IP] [Sebep/@Süre]"
+  Layout:
+  - '&cSunucudan kalıcı olarak uzaklaştırıldınız.'
+  - "&cSebep &7%REASON%"
+  Notification:
+  - ""
+  - "    &4⬛⬛⬛⬛⬛     "
+  - "  &4⬛&4⬛        &4⬛   &3%NAME% &ekalıcı olarak uzaklaştırıldı!"
+  - "  &4⬛  &4⬛      &4⬛   &6Süre: &fKalıcı"
+  - "  &4⬛    &4⬛    &4⬛   &6Uzaklaştıran: &a%OPERATOR%"
+  - "  &4⬛      &4⬛  &4⬛   &6&oSebep: &f&o%REASON%"
+  - "  &4⬛        &4⬛&4⬛   &9/kurallar"
+  - "    &4⬛⬛⬛⬛⬛     "
+  - ""
+  IpNotCashed: "&c%NAME% için kayıtlı IP yok!"
+
+Tempban:
+  Usage: "&cKullanım &8\xbb &7&o/tempban [Name] [Xay/Xgün/Xsa/Xdk/Xsn/#TimeLayout] [Sebep/@Süre]"
+  MaxDuration: "&c%MAX% saniyeden fazla yasaklayamazsınız"
+  Layout:
+  - '&cSunucudan uzaklaştırıldınız.'
+  - "&cSüre &7%DURATION%"
+  - "&cSebep &7%REASON%"
+  Notification:
+  - ""
+  - "    &4⬛⬛⬛⬛⬛     "
+  - "  &4⬛&4⬛        &4⬛   &3%NAME% &esunucudan uzaklaştırıldı!"
+  - "  &4⬛  &4⬛      &4⬛   &6Süre: %DURATION%"
+  - "  &4⬛    &4⬛    &4⬛   &6Uzaklaştıran: &a%OPERATOR%"
+  - "  &4⬛      &4⬛  &4⬛   &6&oSebep: &f&o%REASON%"
+  - "  &4⬛        &4⬛&4⬛   &9/kurallar"
+  - "    &4⬛⬛⬛⬛⬛     "
+  - ""
+
+Tempipban:
+  Usage: "&cKullanım &8\xbb &7&o/tempipban [Name/IP] [Xay/Xgün/Xsa/Xdk/Xsn/#TimeLayout] [Sebep/@Süre]"
+  MaxDuration: "&c%MAX% saniyeden fazla yasaklayamazsınız"
+  Layout:
+  - '&cSunucudan uzaklaştırıldınız.'
+  - "&cSüre &7%DURATION%"
+  - "&cSebep &7%REASON%"
+  Notification:
+  - ""
+  - "    &4⬛⬛⬛⬛⬛     "
+  - "  &4⬛&4⬛        &4⬛   &3%NAME% &esunucudan uzaklaştırıldı!"
+  - "  &4⬛  &4⬛      &4⬛   &6Süre: %DURATION%"
+  - "  &4⬛    &4⬛    &4⬛   &6Uzaklaştıran: &a%OPERATOR%"
+  - "  &4⬛      &4⬛  &4⬛   &6&oSebep: &f&o%REASON%"
+  - "  &4⬛        &4⬛&4⬛   &9/kurallar"
+  - "    &4⬛⬛⬛⬛⬛     "
+  - ""
+
+Mute:
+  Usage: "&cKullanım &8\xbb &7&o/mute [Name] [Sebep/@Süre]"
+  Done: ""
+  AlreadyDone: "&c&o%NAME% &7zaten susturulmuş!"
+  Exempt: "&c&o%NAME% &7adlı kullanıcıyı &7yasaklayamazsınız"
+  Layout:
+  - ""
+  - "  &6%OPERATOR% &7tarafından &akalıcı olarak susturuldun!"
+  - "  &6&oSebep: &f&o%REASON%"
+  - "  &9/kurallar"
+  - ""
+  Notification:
+  - ""
+  - "  &c⬛⬛⬛⬛⬛⬛⬛   "
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &3%NAME% &ekalıcı olarak susturuldu!"
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &6Süre: &fKalıcı"
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &6Susturan: &a%OPERATOR%"
+  - "  &c⬛⬛⬛⬛⬛⬛⬛   &6&oSebep: &f&o%REASON%"
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &9/kurallar"
+  - "  &c⬛⬛⬛⬛⬛⬛⬛   "
+  - ""
+
+Tempmute:
+  Usage: "&cKullanım &8\xbb &7&o/tempmute [Name] [Xay/Xgün/Xsa/Xdk/Xsn/#TimeLayout] [Sebep/@Süre]"
+  MaxDuration: "&c%MAX% saniyeden fazla yasaklayamazsınız"
+  Layout:
+  - ""
+  - "  &6%OPERATOR% &7tarafından &a%DURATION% &7boyunca susturuldun!"
+  - "  &6&oSebep: &f&o%REASON%"
+  - "  &9/kurallar"
+  - ""
+  Notification:
+  - ""
+  - "  &c⬛⬛⬛⬛⬛⬛⬛   "
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &3%NAME% &esusturuldu!"
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &6Süre: &f%DURATION%"
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &6Susturan: &a%OPERATOR%"
+  - "  &c⬛⬛⬛⬛⬛⬛⬛   &6&oSebep: &f&o%REASON%"
+  - "  &c⬛⬛⬛&f⬛&c⬛⬛⬛   &9/kurallar"
+  - "  &c⬛⬛⬛⬛⬛⬛⬛   "
+  - ""
+Warn:
+  Usage: "&cKullanım &8\xbb &7&o/warn [Name] [Sebep/@Süre]"
+  Done: "&c&o%NAME% &7başarıyla uyarıldı!"
+  Exempt: "&c&o%NAME% &7adlı kullanıcıyı &7uyaramazsınız"
+  Layout:
+  - ""
+  - "  &6%OPERATOR% &7tarafından uyarıldın! &f(%COUNT%/10)"
+  - "  &6&oSebep: &f&o%REASON%"
+  - "  &9/kurallar"
+  - ""
+  Notification: ""
+
+Tempwarn:
+  Usage: "&cKullanım &8\xbb &7&o/tempwarn [Name] [Xay/Xgün/Xsa/Xdk/Xsn/#TimeLayout] [Sebep/@Süre]"
+  MaxDuration: "&c%MAX% saniyeden fazla uyaramazsınız"
+  Layout:
+  - ""
+  - "  &6%OPERATOR% &7tarafından uyarıldın! &f(%COUNT%/10)"
+  - "  &6&oSebep: &f&o%REASON%"
+  - "  &9/kurallar"
+  - ""
+  Notification: ""
+
+Kick:
+  Usage: "&cKullanım &8\xbb &7&o/kick [Name] [Sebep/@Süre]"
+  Done: "&c&o%NAME% &7başarıyla atıldı!"
+  NotOnline: "&c&o%NAME% &7çevrimiçi değil!"
+  Exempt: "&c&o%NAME% &7adlı kullanıcıyı &7atamazsınız"
+  Layout:
+  - '%PREFIX% &7Sunucudan atıldın'
+  - '&7'
+  - "&cSebep &8\xbb &7%REASON%"
+  - '&7'
+  Notification:
+  - "&c&o%NAME%, &e&o%OPERATOR% &7tarafından atıldın"
+  - "&7Sebep &o%REASON%"
+
+
+UnBan:
+  Notification: "&e&o%OPERATOR%, &c&o%NAME% &7yasağını geri aldı"
+  Usage: "&cKullanım &8\xbb &7&o/unban [Name/IP]"
+  NotPunished: "&c&o%NAME% yasaklı değil!"
+  Done: "&a&o%NAME% &7başarıyla ban kaldırıldı!"
+
+UnMute:
+  Notification: "&e&o%OPERATOR% &7susturma kaldırıldı! &c&o%NAME%"
+  Usage: "&cKullanım &8\xbb &7&o/unmute [Name]"
+  NotPunished: "&c&o%NAME% susturulmuş değil!"
+  Done: "&a&o%NAME% &7başarıyla susturma kaldırıldı!!"
+
+UnWarn:
+  Notification: "&e&o%OPERATOR%, &c&o%NAME% &7uyarılarını geri aldı"
+  Usage: "&cKullanım &8\xbb &7&o/unwarn [ID] or /unwarn clear [Name]"
+  NotFound: "&cUyarı bulunamadı #%ID%"
+  Done: "&7Uyarı &a&o#%ID% &7başarıyla silindi!"
+  Clear:
+    Empty: "&c&o%NAME% &7uyarılmamış!"
+    Done: "&a&o%COUNT% &7uyarı temizlendi"
+
+UnPunish:
+  Usage: "&cKullanım &8\xbb &7&o/unpunish [ID]"
+  NotFound: "&cCeza #%ID% bulunamadı"
+  Done: "&7Ceza &a&o#%ID% &7başarıyla silindi!"
+
+
+Banlist:
+  Usage: "&cKullanım &8\xbb &7&o/banlist <Page>"
+  OutOfIndex: "&c%PAGE% sayfası yok!"
+  NoEntries: "&c&oThere are no entries"
+  Header:
+  - "%PREFIX% &7Banlist:"
+  - "&c&oPlayer/IP &8| &e&oSüre&8| &7&oTarafından yasaklandı"
+  - "&c&oTip &8> &7&oSebep"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Sayfa &e&o%CURRENT_PAGE% &7/ &e&o%TOTAL_PAGES% &8| &7Toplam kayıtlar: &e&o%COUNT%"
+  PageFooter: "&7Sonraki sayfa için &e&o/history %NAME% %NEXT_PAGE% &7komutunu kullanın"
+
+History:
+  Usage: "&cKullanım &8\xbb &7&o/history [Name/IP] <Page>"
+  OutOfIndex: "&c%PAGE% sayfası yok!"
+  NoEntries: "&c&o%NAME% geçmişi bulunamadı :("
+  Header:
+  - "%PREFIX% &7%NAME% için geçmiş:"
+  - "&c&oİsim &8| &e&oSüre&8| &7&oOperator"
+  - "&c&oTip &8> &7&oSebep"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c%TYPE% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Sayfa &e&o%CURRENT_PAGE% &7/ &e&o%TOTAL_PAGES% &8| &7Toplam kayıtlar: &e&o%COUNT%"
+  PageFooter: "&7Sonraki sayfa için &e&o/history %NAME% %NEXT_PAGE% &7komutunu kullanın"
+
+Warns:
+  Usage: "&cKullanım &8\xbb &7&o/warns [Name] <Page>"
+  OutOfIndex: "&c%PAGE% sayfası yok!"
+  NoEntries: "&c&o%NAME% uyarılmamış"
+  Header:
+  - "%PREFIX% &7Uyarıları %NAME%:"
+  - "&c&oName &8| &e&oSüre&8| &7&oTarafından uyarıldı"
+  - "&c&o#ID &8> &7&oSebep"
+  - "&7"
+  Entry:
+  - "&8[&e%DATE%&8]"
+  - "&c%NAME% &8| &e%DURATION% &8| &7%OPERATOR%"
+  - "&c&l#%ID% &8> &7&o%REASON%"
+  - "&7"
+  Footer: "&7Sayfa &e&o%CURRENT_PAGE% &7/ &e&o%TOTAL_PAGES% &8| &7Aktif uyarılar: &e&o%COUNT%"
+  PageFooter: "&7Sonraki sayfa için &e&o/warns %NEXT_PAGE% &7komutunu kullanın"
+
+WarnsOwn:
+  OutOfIndex: "&c%PAGE% sayfası yok!"
+  NoEntries: "&c&oHenüz uyarınız yok"
+  Header:
+    - "%PREFIX% &7Senin Uyarıların:"
+    - "&e&oSüre&8| &7&oTarafından uyarıldı"
+    - "&c&o#ID &8> &7&oSebep"
+    - "&7"
+  Entry:
+    - "&8[&e%DATE%&8]"
+    - "&e%DURATION% &8| &7%OPERATOR%"
+    - "&c&l#%ID% &8> &7&o%REASON%"
+    - "&7"
+  Footer: "&7Sayfa &e&o%CURRENT_PAGE% &7/ &e&o%TOTAL_PAGES% &8| &7Aktif uyarılar: &e&o%COUNT%"
+  PageFooter: "&7Sonraki sayfa için &e&o/warns %NEXT_PAGE% &7komutunu kullanın"
+
+ChangeReason:
+  Usage: "&cKullanım &8\xbb &7&o/change-reason [ID or ban/mute USER] [New reason]"
+  Done: "&7Ceza &a&o#%ID% &7başarıyla güncellendi!"
+  NotFound: "&cMaalesef bu cezayı bulamadık"
+
+Check:
+  Note: "&cNotlar &8» &7%COUNT%"
+  Usage: "&cKullanım &8\xbb &7&o/check [Name]"
+  Header: "&7Kontrol &e&o%NAME%"
+  UUID: "&cUUID &8\xbb &7%UUID%"
+  IP: "&cIP &8\xbb &7%IP%"
+  Geo: "&cÜlke &8\xbb &7%LOCATION%"
+  Mute: "&cSusturuldu &8\xbb &7%DURATION%"
+  MuteReason: "  &cSebep &8\xbb &7%REASON%"
+  Ban: "&cYasaklandı &8\xbb &7%DURATION%"
+  BanReason: "  &cSebep &8\xbb &7%REASON%"
+  Warn: "&cUyarılar &8\xbb &7%COUNT%"
+  NotFound: "&cMaalesef %NAME% kişisi bulanamadı"
+  Cached: "&a&ocached"
+  NotCached: "&c&onot cached"
+
+# Automatically added by v2.2.1 update process
+UnNote:
+  Usage: "&cKullanım &8» &7&o/unwarn [ID] ya da /unnote clear [Name]"
+  NotFound: "&c#%ID% notu bulunamadı"
+  Done: "&7Note &a&o#%ID% &7başarıyla silindi!"
+  Notification: "&e&o%OPERATOR%, &c&o%NAME% &7adlı oyuncunun notlarını geri alındı "
+  Clear:
+    Empty: "&c&o%NAME% henüz notu yok"
+    Done: "&a&o%COUNT% &7not temizlendi"
+
+Note:
+  Usage: "&cKullanım &8» &7&o/note [Name] [Reason]"
+  Done: "&c&o%NAME% &7başarıyla not edildi!"
+  Exempt: "&c&o%NAME% &7not edilemez"
+  Notification:
+    - "&c&o%NAME%, &e&o%OPERATOR% &7tarafından not edildi"
+    - "&7Sebep &o%REASON%"
+
+Notes:
+  Usage: "&cKullanım &8» &7&o/notes [Name] <Sayfa> &cor &7&o/notes <Sayfa>"
+  OutOfIndex: "&c%PAGE% sayfası yok!"
+  NoEntries: "&c&o%NAME% henüz notu yok"
+  Header:
+    - "&7"
+    - "%PREFIX% &7Notları %NAME%:"
+    - "&7"
+  Entry:
+    - "&7%DATE% &8| &o%OPERATOR% &7Tarafından &7(&c#%ID%&7)"
+    - "&8> &e%REASON%"
+    - "&7"
+  ooter: "&7Sayfa &e&o%CURRENT_PAGE% &7/ &e&o%TOTAL_PAGES% &8| &7Notlar: &e&o%COUNT%"
+  PageFooter: "&7Sonraki sayfaya için &e&o/notes %NEXT_PAGE% &7komutunu kullanın"
+
+NotesOwn:
+  OutOfIndex: "&c%PAGE% sayfası yok!"
+  NoEntries: "&c&oYHenüz notunuz yok"
+  Header:
+    - "&7"
+    - "%PREFIX% &7Senin Notların:"
+    - "&7"
+  Entry:
+    - "&7%DATE% &8| &o%OPERATOR% &7Tarafından &7(&c#%ID%&7)"
+    - "&8> &e%REASON%"
+    - "&7"
+  Footer: "&7Sayfa &e&o%CURRENT_PAGE% &7/ &e&o%TOTAL_PAGES% &8| &7Notlar: &e&o%COUNT%"
+  PageFooter: "&7Sonraki sayfaya için &e&o/notes %NEXT_PAGE% &7komutunu kullanın"

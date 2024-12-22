@@ -1,0 +1,48 @@
+titles:
+  noregister:
+    title: '&aLütfen Kayıt Ol'
+    subtitle: '&e/register şifre şifre yaz'
+  nologin:
+    title: '&aLütfen Giriş Yap'
+    subtitle: '&e/login şifre yaz'
+  register:
+    title: '&a&lKAYIT TAMAMLANDI'
+    subtitle: '&eKaydınız başarıyla tamamlandı 🎄'
+  login:
+    title: '&a&lGİRİŞ TAMAMLANDI'
+    subtitle: '&eGirişiniz başarıyla yapıldı ⛄'
+  autologin:
+    title: '&a&lPREMIUM HESAP'
+    subtitle: '&eOtomatik giriş yapıldı 🎅'
+
+message:
+  welcome:
+    register: |-
+      &7
+      &7&6&lWELCOME &c&l{player}
+      &7
+      &7&6&lYour registration was successful
+      &7
+    login: |-
+      &7
+      &7&a&lThanks for playing &c&l{player}
+      &7
+      &7Your login was successful
+      &7
+    autologin: |-
+      &7
+      &7&a&lAccount Premium &c&l{player}
+      &7
+      &7&aYou have been auto-logged as a premium user
+      &7
+  notifyUpdate: '&7[&c&lUTitleAuth&7] &8| &bYeni bir güncelleme mevcut: &fUTitleAuth
+    v{CURRENT} &e(&fUTitleAuth &fv{NEW}&e). &bİndirmek için &e &c{LINK}'
+  reload: '&cKonfigürasyon dosyası yeniden yüklendi.'
+  reloadLang: '&cDil dosyası yeniden yüklendi.'
+  noPermission: '&cBu işlemi yapmak için yetkiniz yok.'
+actionbar:
+  noregister: '&cLütfen kayıt olun. Kayıt süresi: &6<time>&cs.'
+  nologin: '&cHesabınızı doğrulayın. Giriş süresi: &6<time>&cs.'
+  register: '&a&lKayıt tamamlandı, iyi oyunlar! 🎄'
+  login: ''
+  autologin: ''
