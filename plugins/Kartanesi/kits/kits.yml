@@ -1,0 +1,171 @@
+kits:
+  baslangic:
+    name: baslangic
+    items:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: DIAMOND_AXE
+      '1':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:fortune: 3
+      '2':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: IRON_SHOVEL
+      '3':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: HONEY_BOTTLE
+        amount: 16
+      '4':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: PLAYER_HEAD
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"","extra":[{"text":"Kremalı Kek","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"🍰 Bu keki yiyerek enerjiyle dolacaksın!
+            ⚡","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gold","bold":false}]}'
+          - '{"text":"","extra":[{"text":"⏳ Vurduğun her blok, ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false},{"text":"2
+            dakika","obfuscated":false,"italic":false,"underlined":true,"strikethrough":false,"color":"aqua","bold":false},{"text":"
+            boyunca","italic":false,"color":"aqua"}]}'
+          - '{"text":"","extra":[{"text":"❄ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"white","bold":false},{"text":"kar
+            gibi","obfuscated":false,"italic":false,"underlined":true,"strikethrough":false,"color":"white","bold":false},{"text":"
+            dökülecek!","italic":false,"color":"white"}]}'
+          PublicBukkitValues: |-
+            {
+                "kartanesi:kar_id": "cream_cake"
+            }
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: e8c9cf6b-a81d-4897-993f-5369d408fbfa
+            name: e8c9cf6b-a81d-48
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZkMDNhOGRiMDE1NTMxZTZlZTVlODI4NGY0OWJlNDE1ZDU0NzMzMmI3MGI3ZjNmYjE5OTI5YjRkM2Y5N2U3MyJ9fX0=
+      '5':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: PLAYER_HEAD
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"","extra":[{"text":"Bubble Gum","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"🎈 Yumuşacık, tatlı ve hafif! 🍬","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+          - '{"text":"","extra":[{"text":"☁ Her çiğnemde, seni ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false},{"text":"5
+            dakika","obfuscated":false,"italic":false,"underlined":true,"strikethrough":false,"color":"aqua","bold":false},{"text":"
+            boyunca göklere taşıyor!","italic":false,"color":"aqua"}]}'
+          PublicBukkitValues: |-
+            {
+                "kartanesi:kar_id": "bubble_gum"
+            }
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 70ac085f-885e-41d6-9f6c-db46d47dd69f
+            name: 70ac085f-885e-41
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTRiZDUzZDEwMDhlMzVjOTgwMzFkYTI1MDk0MTQ3Yzg1ZDc4M2NhM2E1NjY5YWZhMGRmMzkzMjhkMDJiYzMwNyJ9fX0=
+      '6':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: PLAYER_HEAD
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: SKULL
+          display-name: '{"text":"","extra":[{"text":"Naneli Şeker","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'
+          lore:
+          - '{"text":"","extra":[{"text":"🍃 Taze nane aromasıyla tatlı bir enerji!","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false}]}'
+          - '{"text":"","extra":[{"text":"⚡ Su altında ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"aqua","bold":false},{"text":"2.5
+            dakika","obfuscated":false,"italic":false,"underlined":true,"strikethrough":false,"color":"aqua","bold":false},{"text":"
+            boyunca nefes alabilir ve hızla yüzebilirsin!","italic":false,"color":"aqua"}]}'
+          PublicBukkitValues: |-
+            {
+                "kartanesi:kar_id": "mint_sugar"
+            }
+          skull-owner:
+            ==: PlayerProfile
+            uniqueId: 4dd15900-88d0-42da-a4f2-ec5282920994
+            name: 4dd15900-88d0-42
+            properties:
+            - name: textures
+              value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VjZDVlODQ4MDIxNGJkNjMzNzU2ZTYxOTJlMTQ3M2NlMjZhYWJhN2E2ZmI4MmY1OTE4ODBhYjQ4Nzc1NjMifX19
+      '7':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: GOLDEN_SHOVEL
+      '8':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: RED_BED
+      '36':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          color:
+            ==: Color
+            ALPHA: 255
+            RED: 176
+            BLUE: 38
+            GREEN: 46
+      '37':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          color:
+            ==: Color
+            ALPHA: 255
+            RED: 176
+            BLUE: 38
+            GREEN: 46
+      '38':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          trim:
+            material: minecraft:iron
+            pattern: minecraft:vex
+          color:
+            ==: Color
+            ALPHA: 255
+            RED: 176
+            BLUE: 38
+            GREEN: 46
+      '39':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4082
+        type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: COLORABLE_ARMOR
+          trim:
+            material: minecraft:iron
+            pattern: minecraft:dune
+          color:
+            ==: Color
+            ALPHA: 255
+            RED: 176
+            BLUE: 38
+            GREEN: 46

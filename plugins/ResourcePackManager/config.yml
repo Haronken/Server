@@ -1,14 +1,14 @@
 # Sets the list, from highest priority (top) to lowest priority (bottom), in which the resource packs will automatically resolve merge conflicts.
 # The defaults use plugin names. If you manually added your own resource pack in the mixer folder to be merged in, add its exact filename, including .zip in the name
 priorityOrder:
-- Cute-Christmas-Hotbar-1.21-JAVA.zip
-- WinterPack_1.21.3_v1.9.zip
+- CoffeeGUI+ChristmasHotbar.zip
 - Wearable-Christmas-Hats.zip
+- WinterPack_1.21.3_v1.9.zip
 # Automatically host the resource pack on MagmaGuy's servers
 # These servers cost money to keep running. There is no guarantee this will be an option forever.
-autoHost: true
+autoHost: false
 # Sets whether the resource pack use will be forced to clients
-forceResourcePack: true
+forceResourcePack: false
 # Sets whether the resource pack use will be forced to clients
 resourcePackPrompt: Use recommended resource pack?
 # OPTIONAL: Copy the merged directory to a custom directory location. Useful for unusual setups, like people trying to host with a different plugin.

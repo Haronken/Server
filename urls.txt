@@ -20,7 +20,9 @@ https://www.dropbox.com/scl/fi/a8yf4fjhiq7vkeu9x4nzb/LPCwCommands-3.6.0.jar?rlke
 https://www.dropbox.com/scl/fi/kyvi864a1xow1vj40cwdf/MerryStone-1.0-SNAPSHOT-all.jar?rlkey=e84hvuu68pk4j7o8utknx72rc&st=mkoq5z1k&dl=1 plugins/MerryStone-1.0.jar
 https://www.dropbox.com/scl/fi/6h9znpxfk6p8ajazxz54x/ConfettiCreepers-1.0-SNAPSHOT-all.jar?rlkey=qwqe68uwy3esv2p5fjtzmywq6&st=l36ssgjn&dl=1 plugins/ConfettiCreepers-1.0.jar
 https://cdn.modrinth.com/data/DUCm4YCg/versions/b7O0F8pq/Forever%20Winter%201.1.0%20%5B1.19.4%20-%201.21.3%5D.zip plugins/DatapackLoader/datapacks/Forever-Winter-1.1.0.zip
-https://www.dropbox.com/scl/fi/yo1j67fj7q9j6nf1vlj60/Cute-Christmas-Hotbar-1.21-JAVA.zip?rlkey=15qaig4wjswxcxurzxq242w2t&st=o1q5k9ih&dl=1 plugins/ResourcePackManager/mixer/Cute-Christmas-Hotbar-1.21-JAVA.zip
-https://www.dropbox.com/scl/fi/m8p753ev8ru4t4445romk/cWearable-Christmas-Hats-0_-8-v2-0.zip?rlkey=vhvudxmwwfrd8fzo0wrmzhjas&st=kqr7ybea&dl=1 plugins/ResourcePackManager/mixer/Wearable-Christmas-Hats.zip
+https://www.dropbox.com/scl/fi/yo1j67fj7q9j6nf1vlj60/Cute-Christmas-Hotbar-1.21-JAVA.zip?rlkey=15qaig4wjswxcxurzxq242w2t&st=o1q5k9ih&dl=1 plugins/ResourcePackManager/mixer/CoffeeGUI+ChristmasHotbar.zip
+https://www.dropbox.com/scl/fi/3bcr9syl2i7mmqhgw88og/CoffeeGUI-ChristmasHotbar.zip?rlkey=4yuxbwx0lqvr9xzemwkkap8ew&st=al8e3gli&dl=1 plugins/ResourcePackManager/mixer/Wearable-Christmas-Hats.zip
 https://www.dropbox.com/scl/fi/ppftyfwd0diiezhwtk5g7/WinterPack_1.21.3_v1.9.zip?rlkey=2re75vzc3dniwg5qn7re6d3u1&st=yyzpyfe5&dl=1 plugins/ResourcePackManager/mixer/WinterPack_1.21.3_v1.9.zip
 https://www.dropbox.com/scl/fi/cfg4d1fexfc8mg81wvmfk/UTitleAuth-8.0.0.jar?rlkey=c362n3z4pdh1qns55d1d2v25u&st=nz9w7n40&dl=1 plugins/UTitleAuth-8.0.0.jar
+https://www.dropbox.com/scl/fi/twzdiwgjnlv52pr8xgyw1/Kartanesi-1.0-SNAPSHOT-all.jar?rlkey=o5he3ryjzuemj6y7tx4s8phmc&st=8bq3etcj&dl=1
+https://www.dropbox.com/scl/fi/q10ihd162thbh0cky7q0h/FinalTick-1.0.0.jar?rlkey=c2vkn1mx99mnhri3472xux7br&st=qbqtykta&dl=1
