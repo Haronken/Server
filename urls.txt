@@ -24,6 +24,6 @@ https://www.dropbox.com/scl/fi/yo1j67fj7q9j6nf1vlj60/Cute-Christmas-Hotbar-1.21-
 https://www.dropbox.com/scl/fi/3bcr9syl2i7mmqhgw88og/CoffeeGUI-ChristmasHotbar.zip?rlkey=4yuxbwx0lqvr9xzemwkkap8ew&st=al8e3gli&dl=1 plugins/ResourcePackManager/mixer/Wearable-Christmas-Hats.zip
 https://www.dropbox.com/scl/fi/ppftyfwd0diiezhwtk5g7/WinterPack_1.21.3_v1.9.zip?rlkey=2re75vzc3dniwg5qn7re6d3u1&st=yyzpyfe5&dl=1 plugins/ResourcePackManager/mixer/WinterPack_1.21.3_v1.9.zip
 https://www.dropbox.com/scl/fi/cfg4d1fexfc8mg81wvmfk/UTitleAuth-8.0.0.jar?rlkey=c362n3z4pdh1qns55d1d2v25u&st=nz9w7n40&dl=1 plugins/UTitleAuth-8.0.0.jar
-https://www.dropbox.com/scl/fi/twzdiwgjnlv52pr8xgyw1/Kartanesi-1.0-SNAPSHOT-all.jar?rlkey=o5he3ryjzuemj6y7tx4s8phmc&st=8bq3etcj&dl=1 plugins/Kartanesi-1.0-SNAPSHOT-all.jar
+https://www.dropbox.com/scl/fi/i10i0wusgkqkvylzf7u6m/Kartanesi-1.0-SNAPSHOT-all.jar?rlkey=9uu1px3f4cwjep1bx2vdkdn7l&st=zaosi7pe&dl=1 plugins/Kartanesi-1.0-SNAPSHOT-all.jar
 https://www.dropbox.com/scl/fi/q10ihd162thbh0cky7q0h/FinalTick-1.0.0.jar?rlkey=c2vkn1mx99mnhri3472xux7br&st=qbqtykta&dl=1 plugins/FinalTick-1.0.0.jar
 https://www.dropbox.com/scl/fi/438l0v05sqc72pcu0k5zd/Chunky-Bukkit-1.4.28.jar?rlkey=zev0elgt0j7ueeskqpy4selac&st=8jc1ukvk&dl=1 plugins/Chunky-Bukkit-1.4.28.jar
